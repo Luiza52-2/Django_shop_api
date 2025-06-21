@@ -26,3 +26,8 @@ class UserRegisterSerializer(UserBaseSerializer):
 class UserConfirmationSerializer(serializers.Serializer):
     username = serializers.CharField(max_length=150)
     code = serializers.CharField(max_length=6)
+
+class UserRegisterSerializer(serializers.Serializer):
+    username = serializers.CharField(max_length=150)
+    password = serializers.CharField()
+    email = serializers.EmailField(required=False) 

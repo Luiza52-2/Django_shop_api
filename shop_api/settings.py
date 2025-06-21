@@ -28,6 +28,15 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'mail@gmail.com'        # 🔁 укажи свою почту
+# EMAIL_HOST_PASSWORD = 'password'  # 🔁 сгенерируй [App Password в Google](https://myaccount.google.com/apppasswords)
+# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
 # Application definition
 
 INSTALLED_APPS = [
