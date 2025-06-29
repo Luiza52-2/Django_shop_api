@@ -91,14 +91,14 @@ WSGI_APPLICATION = 'shop_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': os.environ.get('NAME_DB'),
-        'ENGINE': 'django.db.backends.postgresql',
-        'USER': os.environ.get('USER_DB'),
-        'PASSWORD': os.environ.get('PASSWORD_DB'),
-        'HOST': os.environ.get('HOST_DB'),
-        'PORT': os.environ.get('PORT_DB'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'NAME': os.environ.get('NAME_DB'),
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'USER': os.environ.get('USER_DB'),
+        # 'PASSWORD': os.environ.get('PASSWORD_DB'),
+        # 'HOST': os.environ.get('HOST_DB'),
+        # 'PORT': os.environ.get('PORT_DB'),
     }
 }
 
